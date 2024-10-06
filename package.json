@@ -1,0 +1,30 @@
+{
+  "name": "workspace-booking-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.14.2",
+    "@nuxtjs/supabase": "^1.1.7",
+    "@pinia/nuxt": "^0.5.1",
+    "@stripe/stripe-js": "^3.0.7",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.1.7",
+    "stripe": "^14.20.0",
+    "vue3-google-map": "^0.19.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.11.0",
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2",
+    "vitest": "^1.4.0"
+  }
+}
